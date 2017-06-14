@@ -1,0 +1,149 @@
+
+
+/*center nav items except for small device*/
+
+@media (min-width: 768px) {
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+.navbar .navbar-collapse {
+	text-align: center;
+}
+}
+/*rest of nav styling*/
+
+.navbar-default {
+	background-color: #192033;
+	border-color: #4b587f;
+    width: 100%;
+    z-index:100;
+}
+.navbar-default .navbar-brand {
+	color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #ffffff;
+}
+.navbar-default .navbar-text {
+	color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+	background-color: #192033;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+	color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+	color: #ffffff;
+	background-color: #4b587f;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+	background-color: #4b587f;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	color: #ffffff;
+	background-color: #4b587f;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #4b587f;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #ffffff;
+	background-color: #4b587f;
+}
+.navbar-default .navbar-toggle {
+	border-color: #4b587f;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #4b587f;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+	color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+	color: #ffffff;
+}
+
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #ecf0f1;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	color: #ffffff;
+	background-color: #4b587f;
+}
+}
+/*other ..*/
+
+
+.BreadCrumb {
+	text-align: center;
+}
+.ContactUs {
+	margin: 20px;
+	text-align: center;
+}
+.HelpSupport {
+	margin: 20px;
+	text-align: center;
+}
+.btn-facebook {
+	margin: 5px;
+	color: aliceblue;
+	background-color: darkblue;
+	border-color: black;
+	
+	font-size: 32px;
+	
+	position: relative;
+	
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	
+	height: 40px;
+	width: 40px;
+	padding: 0;
+	
+}
+footer {
+	margin: 5px;
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+}
+.h3 {
+	text-align: center;
+	background-color: #34425d;
+	color: #fff;
+	
+}
+.nav-pills {
+	background-color: #afb6bb;
+	
+}
+.panel-heading {
+	text-align: center;
+}
+.text-left {
+	margin-top: 40px;
+}
+
